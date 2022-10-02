@@ -1,7 +1,9 @@
 .container {
   font-family: "Maitree", serif;
   font-family: "Work Sans", sans-serif;
-  width: 88%;
   max-width: 1331px;
   margin: 0 auto;
+  @media only screen and (max-width: 555px) {
+    max-width: 88%;
+  }
 }

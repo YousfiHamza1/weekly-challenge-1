@@ -20,6 +20,11 @@
       font-size: 64px;
       line-height: 72px;
       max-width: 808px;
+      @media only screen and (max-width: 678px) {
+        font-size: 42px;
+        line-height: 36px;
+        max-width: 88%;
+      }
     }
 
     .subHeading {
@@ -29,17 +34,30 @@
       font-size: 24px;
       line-height: 28px;
       max-width: 630px;
+      @media only screen and (max-width: 678px) {
+        font-size: 16px;
+        line-height: 18px;
+        max-width: 88%;
+      }
     }
   }
 
   .tilesGrid {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
     justify-content: center;
-    grid-gap: 60px;
+    flex-wrap: wrap;
+    gap: 60px;
     width: 100%;
+    @media only screen and (max-width: 555px) {
+      gap: 30px;
+    }
   }
   .tileContainer {
+    display: flex;
+    justify-content: center;
     margin-bottom: -55px;
+    @media only screen and (max-width: 1300px) {
+      margin-bottom: 15px;
+    }
   }
 }
