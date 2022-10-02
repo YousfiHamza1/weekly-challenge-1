@@ -4,6 +4,7 @@ import Head from 'next/head'
 
 import { NewsSection } from '../components/sections/NewsSection'
 import { WithBgImage } from '../components/sections/WithBgImage'
+
 import styles from '../styles/home.module.scss'
 
 const Home: NextPage = () => {
@@ -12,7 +13,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Weekly Challenge - Week-1</title>
       </Head>
-      <div className={styles.container}>
+      <div>
         <NewsSection />
         <WithBgImage />
       </div>

@@ -1,0 +1,45 @@
+.section {
+  background: #032849;
+
+  .content {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    // Text
+    font-family: "Work Sans", sans-serif;
+    color: #fff;
+    text-align: center;
+
+    .heading {
+      margin: 0;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 64px;
+      line-height: 72px;
+      max-width: 808px;
+    }
+
+    .subHeading {
+      margin: 0;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 28px;
+      max-width: 630px;
+    }
+  }
+
+  .tilesGrid {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-gap: 60px;
+    width: 100%;
+  }
+  .tileContainer {
+    margin-bottom: -55px;
+  }
+}
